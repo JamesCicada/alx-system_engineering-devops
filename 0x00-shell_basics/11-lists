@@ -1,0 +1,4 @@
+#!/bin/sh
+ls -la ./
+ls -la ../
+ls -la /boot/
