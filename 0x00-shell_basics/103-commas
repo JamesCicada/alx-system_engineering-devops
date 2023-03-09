@@ -1,2 +1,2 @@
 #!/bin/bash
-ls -1Apva | sed ':a;N;$!ba;s/\n/, /g'
+ls -am
