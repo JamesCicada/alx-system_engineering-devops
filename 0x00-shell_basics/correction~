@@ -1,0 +1,8 @@
+#!/bin/bash
+
+for file in *
+do
+  if [ -f "$file" ] && [ -x "$file" ]; then
+    sed -i 's|#!/bin/bash|#!/bin/bash|' "$file"
+  fi
+done
