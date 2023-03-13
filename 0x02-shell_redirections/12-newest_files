@@ -1,0 +1,2 @@
+#!/bin/bash
+ls -tpA | grep -v / | head -12
