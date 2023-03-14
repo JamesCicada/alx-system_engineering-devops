@@ -1,0 +1,2 @@
+#!/bin/bash
+tr '\n' '\t' | tr -s '\t' | tr '\t' '\n' | cut -c1 | paste -s | tr -d "[:blank:]"
