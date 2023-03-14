@@ -1,0 +1,19 @@
+#!/bin/bash
+0 - Creates alias (name: ls, value: rm *).
+1 - Prins hello user where useris replaced with the current user's name.
+2 - Adds /action to PATH.
+3 - Counts number of dirs in the PATH.
+4 - Lists env variables.
+5 - Lists local vars, env vars, and functions
+6 - Creates a local var (name: BEST, value: School).
+7 - Creates a g;oba; var (name: BEST, value: School).
+8 - Prints the result of 128 + env variable TRUEKNOWLEDGE, followed by new line.
+9 - Prints the result of var POWER divided by var DIVIDE, followed by new line.
+10 - Prints the  result of var BREATH to the power of var LOVE, followed by new line.
+11 - Converts number from base 2 to base 10, followed by new line.
+12 - Prints all possible combinations of two letters, except oo.
+13 - Prints number with two decimal places, followed by a new line.
+100 - Converts number from base 10 to base 16, followed by a new line.
+101 - Encodes and decodes text using the rot13 encryption. Assume ASCII.
+102 - Prints every other line from the input, starting with the first line.
+103 - Adds the two numbers stored in the environment variables WATER and STIR and prints the result.
