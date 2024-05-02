@@ -1,14 +1,14 @@
 #!/usr/bin/env bash
 # Bash: loops 1-10, "bad luck" (4th), "good luck" (8th), "Best School" (others).
 count=1
-
+word="Best School"
 while [[ $count -le 10 ]]; do
   if [[ $count -eq 4 ]]; then
     echo "bad luck"
   elif [[ $count -eq 8 ]]; then
     echo "good luck"
   else
-    echo "Best School"
+    echo "$word"
   fi
 
   count=$((count + 1))

@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
 count=1
+word="Best School"
 while [[ $count -le 10 ]]; do
-  echo "Best School"
+  echo "$word"
   count=$((count + 1))  # Increment count by 1
 done

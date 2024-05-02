@@ -1,12 +1,12 @@
 #!/usr/bin/env bash
 # This script is displaying "Best School" 10 times
 count=1
-
+word="Best School"
 while [[ $count -le 10 ]]; do
 if [[ $count -eq 9 ]]; then
 echo "Hi"
   else
-    echo "Best School" 
+    echo "$word" 
   fi
   count=$((count + 1))
 done
